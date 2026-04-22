@@ -1,0 +1,181 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 65%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  background: #ffffff;
+  color: #6c63ff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+li {
+  margin-top: 10px;
+  background: rgba(255,255,255,0.2);
+  padding: 8px;
+  border-radius: 8px;
+  list-style: none;
+}
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .card {
+  background: #1e1e1e;
+}
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  backdrop-filter: blur(10px);
+}
+#themeBtn {
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.app-title {
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-title i {
+  color: #6c63ff;
+  font-size: 24px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 15px 15px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo i {
+  color: #6c63ff;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.nav-icons i {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.nav-icons i:hover {
+  background: rgba(0,0,0,0.1);
+  transform: scale(1.1);
+}
+#mode {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+svg {
+  transform: rotate(-90deg);
+}
+
+circle {
+  fill: none;
+  stroke-width: 10;
+}
+
+.bg {
+  stroke: #ddd;
+}
+
+.progress {
+  stroke: #6c63ff;
+  stroke-linecap: round;
+  stroke-dasharray: 565; /* 2 * PI * 90 */
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s linear;
+}
+
+#timerDisplay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+}
+#quote {
+  font-style: italic;
+  margin-top: 10px;
+  line-height: 1.5;
+}
